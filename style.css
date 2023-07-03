@@ -17,7 +17,14 @@ button {
     border-radius: 8px;
     background-color: #3882F6;
     color: white;
+    width: 124px;
+    height: 36px;
 
+}
+
+.section {
+    background-color: rgb(31, 31, 55);
+    padding: 0px 15% 0 15%;
 }
 
 .header {
@@ -26,7 +33,7 @@ button {
     font-weight: bold;
     background-color: rgb(31, 31, 55);
     color: white;
-    padding: 16px;
+    padding-top: 16px;
 }
 
 .links {
@@ -38,8 +45,8 @@ button {
     background-color: rgb(31, 31, 55);
     color: white;
     display: flex;
-    padding: 100px;
-    gap: 50px;
+    padding: 100px 0 100px 0;
+    gap: 25px;
 }
 
 .top-content .left {
@@ -52,17 +59,17 @@ button {
 .top-content .left .subtext {
     color: #E5E7EB;
     margin: 0 0 8px 0;
+    font-size: 18px;
 }
 
 .top-content .right {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     min-width: 50%;
+    margin: 0;
 }
 
-.top-content .right img {
-    object-fit: scale-down;
-}
+
 
 .hero-text {
     font-size: 48px;
@@ -70,20 +77,34 @@ button {
 }
 
 .random {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.random .info {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bold;
+    padding: 36px;
 }
 
 .random img {
-    height: 100px;
-    min-width: 100px;
-    border-radius: 8px;
-    border-color: #3882F6;
-    border-width: 5px;
+    height: 175px;
+    min-width: 175px;
+    border: 2px solid #3882F6;
+    border-radius: 16px;
+}
+
+.random .subtext {
+    color: black;
+    font-size: 18px;
+    max-width: 175px;
 }
 
 .images {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 36px;
 }
