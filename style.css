@@ -19,6 +19,7 @@ button {
     color: white;
     width: 124px;
     height: 36px;
+    border-color: #1F2937;
 
 }
 
@@ -30,6 +31,7 @@ button {
 .header {
     display: flex;
     justify-content: space-between;
+    font-size: 24px;
     font-weight: bold;
     background-color: rgb(31, 31, 55);
     color: white;
@@ -39,6 +41,7 @@ button {
 .links {
     display: flex;
     gap: 12px;
+    font-size: 18px;
 }
 
 .top-content {
@@ -89,7 +92,8 @@ button {
 
 .random img {
     height: 175px;
-    min-width: 175px;
+    width: 175px;
+    flex: 1;
     border: 2px solid #3882F6;
     border-radius: 16px;
 }
@@ -119,9 +123,31 @@ button {
 .quote p {
     margin: 0;
 }
+
 .thor {
     font-size: 18px;
     font-weight: bold;
     font-style: normal;
     text-align: end;
 }
+
+.bottom {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    padding: 50px 5%;
+    margin: 100px 15%;
+    justify-content: space-between;
+    font-size: 18px;
+    align-items: center;
+}
+
+.bottom button {
+    border-color: white;
+}
+
+.bottom .call {
+    font-weight: bold;
+    font-size: 24px;
+}
+
